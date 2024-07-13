@@ -3,7 +3,7 @@ package com.javaxpert.demos.fizzbuzz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
-public class FizzBuzzTest {
+public class FizzBuzzClassicTest {
     private FizzBuzzClassic fizzbuzz;
     @BeforeEach
     void setUp(){
