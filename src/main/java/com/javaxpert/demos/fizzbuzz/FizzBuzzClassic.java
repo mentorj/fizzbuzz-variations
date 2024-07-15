@@ -2,7 +2,7 @@ package com.javaxpert.demos.fizzbuzz;
 
 import java.util.function.Predicate;
 
-public class FizzBuzzClassic {
+public class FizzBuzzClassic implements FizzBuzz {
     public String fizzbuzz(int value) {
         Predicate<Integer> dividableBy5 = integer -> integer % 5 == 0;
         Predicate<Integer> dividableBy3 = integer -> integer % 3 == 0;
